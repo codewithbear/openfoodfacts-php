@@ -12,6 +12,11 @@ PHP API Wrapper for [Open Food Facts](https://openfoodfacts.org/), the open data
 [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/openfoodfacts/openfoodfacts-php.svg)](https://isitmaintained.com/project/openfoodfacts/openfoodfacts-php "Average time to resolve an issue")
 [![Percentage of issues still open](https://isitmaintained.com/badge/open/openfoodfacts/openfoodfacts-php.svg)](https://isitmaintained.com/project/openfoodfacts/openfoodfacts-php "Percentage of issues still open")
 
+## Current features
+* Search-A-Licious (#62), user-agent (#53), PHP 8.1 (#47), Image upload
+* Most features should be visible here: https://github.com/openfoodfacts/openfoodfacts-php/blob/develop/src/Api.php
+* PLEASE DOCUMENT ANY MISSING FEATURES HERE
+
 ## Installation
 
 With Composer:
