@@ -1,0 +1,23 @@
+name: Morph Workflow
+
+on:
+  push:
+    branches:
+      - morph-set-output-issue-ucs5a
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set environment variables
+        run: |
+          echo "VERSION_NAME=1.2.3" >> $GITHUB_ENV
+          echo "VERSION_CODE=42" >> $GITHUB_ENV
+
+      - name: Use environment variables
+        run: |
+          echo "Version name: $VERSION_NAME"
+          echo "Version code: $VERSION_CODE"
